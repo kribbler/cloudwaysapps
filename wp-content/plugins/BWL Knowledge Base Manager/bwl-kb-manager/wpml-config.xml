@@ -1,0 +1,23 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">bwl_kb</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">bkb_category</taxonomy>
+        <taxonomy translate="1">bkb_tags</taxonomy>
+    </taxonomies>
+    <admin-texts>
+        <key name="bkb_options">
+            <key name="bkb_ask_question_title"/>
+            <key name="bkb_feedback_form_title"/>
+            <key name="bkb_custom_cat_page_title_status">
+                <key name="bkb_cat_additional_title_text"/>
+            </key>
+            <key name="bkb_custom_tag_page_title_status">
+                <key name="bkb_tag_additional_title_text"/>
+            </key>
+            <key name="bkb_tipsy_like_title"/>
+            <key name="bkb_tipsy_dislike_title"/>
+        </key>
+    </admin-texts>
+</wpml-config>

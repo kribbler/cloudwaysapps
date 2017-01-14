@@ -1,0 +1,143 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 5, 2015, 7:16:49 PM
+    Author     : BlueWindLab
+    Title : RTL Support for BWL Knowledgebase Manager.
+    From: Version 1.0.7
+*/
+
+/**
+ * 1.0 Reset
+ */
+
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+    text-align: right;
+    clear: right;
+}
+
+/* ---------------Rounded List Style ----------------------- */			
+
+.rounded-list a,
+.rounded-list a:visited{
+    padding: .4em 2em .4em .4em;
+}
+
+.rounded-list a:before{	
+    right: -1.4em;
+}
+
+
+/*------------------------------ Form Element ---------------------------------*/
+
+section.bkb-ques-form-container {
+  direction: rtl;
+  unicode-bidi: embed;
+  text-align: right;
+  clear: right;
+}
+
+.bkb-ques-form-container .bwl-fca-message-box{
+    padding: 6px 6px 6px 2px;
+}
+
+p.bkb_question_submit_container{
+    text-align: right;
+}
+
+/*------------------------------ Voting Section ---------------------------------*/
+
+.bkb_container{
+    direction: rtl;
+    unicode-bidi: embed;
+    text-align: right;
+    float: right;
+}
+
+.bkb_btn_container{
+    
+    float: right;
+    
+}
+
+.bkb_container .btn_like, .bkb_container .btn_dislike{
+  float: right;  
+}
+
+.bkb_container .btn_like{
+    margin-right: 0px;
+}
+
+.bkb_container .stat-cnt{ float: left;}
+
+.msg_container{
+    text-align: right;
+}
+
+/*------------------------------ Feedback From Element ---------------------------------*/
+
+section.bkb-feedback-form-container {
+  direction: rtl;
+  unicode-bidi: embed;
+  text-align: right;
+  clear: right;
+}
+
+p.bkb_feedback_submit_container{
+    text-align: right;
+}
+
+/*------------------------------ Search Section ---------------------------------*/
+
+.search_icon{
+    background-position: top 10px left 10px;
+}
+
+.load{
+    
+    background-position: top 10px left 10px;
+}
+
+div.suggestionList:before{
+    left: initial;
+    right: 10px;
+}
+
+div.suggestionList ul li{
+    text-align: right;
+}
+
+/*-------------------------Sticky KB Settings --------------------------------------*/
+
+.bkb-sticky-container{
+ 
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    right: initial;
+    left: -119px;
+    top:250px;
+    width: 150px;
+
+}
+
+.bkb-sticky li{
+    padding: 0 10px 0 0 ;
+    margin: 0px 0px 1px 0px;
+    
+
+}
+
+.bkb-sticky li:hover{
+    margin-left: 0;
+    margin-right: -119px;
+}
+
+.bkb-sticky li:hover span{
+    opacity: 1;
+}

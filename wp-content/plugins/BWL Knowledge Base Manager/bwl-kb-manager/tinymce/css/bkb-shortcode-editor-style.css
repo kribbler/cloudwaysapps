@@ -1,0 +1,102 @@
+/*------------------------------ lorem_pixel Shortcode Popup Styling---------------------------------*/
+
+#bkb_editor_overlay {
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	z-index:99999;
+                background-color: rgba(0,0,0,0.7);
+	direction:ltr;
+}
+#bkb_editor_overlay #bkb_editor_popup {
+	background-color: #fff;
+	width:560px;
+	min-height:550px;
+	margin:150px auto 0px auto;
+	border:1px solid #222222;
+}
+#bkb_editor_overlay #bkb_editor_popup h3 {
+	background-color:#222222;
+	color:#fff;
+	text-align:center;
+	line-height:30px;
+	margin:0px;
+              position: relative;
+              cursor: move;
+}
+
+.bkb_overflow{
+    overflow-y: scroll;
+    max-height: 525px;
+}
+
+
+#bkb_editor_overlay #bkb_editor_popup span.btn_bkb_editor_close{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: verdana;
+    right: 5px;
+    top: 8px;
+    color: #FFFFFF;
+    cursor: pointer;
+    
+}
+
+#bkb_editor_overlay #bkb_editor_popup #bkb_editor_popup_content {
+    padding:20px;
+    background: #FFFFFF;
+}
+#bkb_editor_popup_content .row {
+	margin-bottom:10px;
+}
+#bkb_editor_popup_content .row label{
+	display:block;
+	width:180px;
+	text-align:left;
+	line-height:25px;
+	display:inline-block;
+	float:left;
+	margin-right:10px;
+               clear: both;
+}
+
+#bkb_editor_popup_content .row input[type="text"]{
+	display:block;
+	width:230px;
+	text-align:left;
+	display:inline-block;
+	border:1px solid #ccc;
+}
+
+
+#bkb_editor_popup_content .row select {
+	display:block;
+	width:245px;
+	text-align:left;
+	display:inline-block;
+	border:1px solid #ccc;
+}
+
+#bkb_editor_popup_content .row .centered{
+    text-align: center;
+    display: block;
+}
+
+#bkb_editor_popup_content .row .dn{
+    display: none;
+}
+
+
+#bkb_editor_popup_content #bkb_editor_popup_buttons {
+	padding:20px 0;
+	border-top:1px solid #ccc;
+}
+#bkb_editor_popup_content #bkb_editor_popup_buttons #closeShortCodebtn {
+	float:right;
+}

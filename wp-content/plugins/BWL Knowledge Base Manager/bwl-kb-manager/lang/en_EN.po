@@ -1,0 +1,1652 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BWL Knowledge Base Manager\n"
+"POT-Creation-Date: 2015-06-22 00:49+0600\n"
+"PO-Revision-Date: 2015-06-22 00:51+0600\n"
+"Last-Translator: \n"
+"Language-Team: BlueWindLab <hkhan.cse@gmail.com>\n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../bwl-knowledge-base-manager.php:179
+msgid "All Knowledge Base"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:180
+#: ../option-panel/plugin-option-panel-settings.php:520
+msgid "Knowledge Base"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:181 ../bwl-knowledge-base-manager.php:182
+msgid "Add New KB"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:183
+msgid "Edit KB"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:184
+msgid "New KB"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:185
+msgid "All KB Items"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:186
+msgid "View KB Items"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:187
+msgid "Search KB Items"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:188
+msgid "No KB found"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:189
+msgid "No KB found in Trash"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:191
+msgid "BWL KB"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:257
+msgid "KB Category"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:258 ../includes/bkb-custom-column.php:23
+#: ../includes/bkb-related-post-custom-meta-box.php:157
+msgid "Category"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:259
+msgid "Edit Category"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:260
+msgid "Update category"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:261
+msgid "Add Category"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:262
+msgid "Add New category"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:263
+msgid "All categories"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:264
+msgid "Search categories"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:265
+msgid "Popular categories"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:266
+msgid "Separate categories with commas"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:267
+msgid "Add or remove category"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:268
+msgid "Choose from most used categories"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:286
+msgid "KB Tags"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:287 ../includes/bkb-custom-column.php:25
+#: ../widget/bkb-tags-widget.php:34
+msgid "Tags"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:288
+msgid "Edit Tags"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:289
+msgid "Update Tags"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:290
+msgid "Add Tag"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:291
+msgid "Add New Tag"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:292
+msgid "All Tags"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:293
+msgid "Search Tags"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:294
+msgid "Popular Tags"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:295
+msgid "Separate Tags with commas"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:296
+msgid "Add or remove Tags"
+msgstr ""
+
+#: ../bwl-knowledge-base-manager.php:297
+msgid "Choose from most used Tags"
+msgstr ""
+
+#: ../includes/bkb-admin-column-filter.php:32
+msgid "Show All "
+msgstr ""
+
+#: ../includes/bkb-category-tag-custom-field.php:17
+msgid "Category Image Url"
+msgstr ""
+
+#: ../includes/bkb-category-tag-custom-field.php:20
+msgid "Image for category: use full url with http://"
+msgstr ""
+
+#: ../includes/bkb-category-tag-custom-field.php:24
+#: ../includes/bkb-category-tag-custom-field.php:27
+#: ../includes/bkb-category-tag-custom-field.php:31
+#: ../includes/bkb-category-tag-custom-field.php:34
+#: ../includes/bkb-category-tag-custom-field.php:38
+#: ../includes/bkb-category-tag-custom-field.php:41
+msgid "extra field"
+msgstr ""
+
+#: ../includes/bkb-cmb/bkb-custom-meta-fields.php:13
+msgid "Upload Files"
+msgstr ""
+
+#: ../includes/bkb-cmb/bkb-custom-meta-fields.php:17
+msgid "BKB File Attachment Settings"
+msgstr ""
+
+#: ../includes/bkb-cmb/classes.fields.php:1040
+msgid "Type to search"
+msgstr ""
+
+#: ../includes/bkb-custom-column.php:19
+msgid "KB Title"
+msgstr ""
+
+#: ../includes/bkb-custom-column.php:21 ../includes/bkb-quick-edit.php:75
+msgid "Author"
+msgstr ""
+
+#: ../includes/bkb-custom-column.php:27
+msgid "Icon"
+msgstr ""
+
+#: ../includes/bkb-custom-column.php:29
+msgid "Views"
+msgstr ""
+
+#: ../includes/bkb-custom-column.php:31
+msgid "Like"
+msgstr ""
+
+#: ../includes/bkb-custom-column.php:33
+msgid "Dislike"
+msgstr ""
+
+#: ../includes/bkb-custom-column.php:35
+msgid "Feedback"
+msgstr ""
+
+#: ../includes/bkb-custom-column.php:37
+msgid "Voting Box"
+msgstr ""
+
+#: ../includes/bkb-custom-column.php:39 ../includes/bkb-helpers.php:322
+#: ../shortcode/bkb-tabify-shortcode.php:85
+#: ../tinymce/bkb_shortcode_editor.php:43
+msgid "Featured"
+msgstr ""
+
+#: ../includes/bkb-custom-column.php:41
+#: ../tinymce/bkb_shortcode_editor.php:582
+#: ../tinymce/bkb_shortcode_editor.php:684
+msgid "Date"
+msgstr ""
+
+#: ../includes/bkb-custom-column.php:45
+msgid "Hide From<br />Blog List?"
+msgstr ""
+
+#: ../includes/bkb-custom-column.php:98
+msgid "Uncategorized"
+msgstr ""
+
+#: ../includes/bkb-custom-column.php:144 ../includes/bkb-custom-column.php:220
+#: ../includes/bkb-custom-meta-box.php:242
+#: ../includes/bkb-custom-meta-box.php:305 ../includes/bkb-quick-edit.php:26
+#: ../includes/bkb-quick-edit.php:114 ../tinymce/bkb_shortcode_editor.php:618
+#: ../tinymce/bkb_shortcode_editor.php:624
+#: ../tinymce/bkb_shortcode_editor.php:720
+#: ../tinymce/bkb_shortcode_editor.php:726
+msgid "Yes"
+msgstr ""
+
+#: ../includes/bkb-custom-column.php:148 ../includes/bkb-custom-column.php:220
+#: ../includes/bkb-custom-meta-box.php:241
+#: ../includes/bkb-custom-meta-box.php:306 ../includes/bkb-quick-edit.php:25
+#: ../includes/bkb-quick-edit.php:113 ../tinymce/bkb_shortcode_editor.php:619
+#: ../tinymce/bkb_shortcode_editor.php:625
+#: ../tinymce/bkb_shortcode_editor.php:721
+#: ../tinymce/bkb_shortcode_editor.php:727
+msgid "No"
+msgstr ""
+
+#: ../includes/bkb-custom-column.php:177 ../includes/bkb-quick-edit.php:51
+msgid "Closed"
+msgstr ""
+
+#: ../includes/bkb-custom-column.php:181
+#: ../includes/bkb-custom-meta-box.php:254 ../includes/bkb-quick-edit.php:50
+#: ../includes/bkb-related-post-custom-meta-box.php:145
+msgid "Show"
+msgstr ""
+
+#: ../includes/bkb-custom-column.php:185 ../includes/bkb-quick-edit.php:49
+msgid "Hidden"
+msgstr ""
+
+#: ../includes/bkb-custom-meta-box.php:202
+msgid "Select Icon: "
+msgstr ""
+
+#: ../includes/bkb-custom-meta-box.php:227
+msgid "Author: "
+msgstr ""
+
+#: ../includes/bkb-custom-meta-box.php:236
+msgid "Featured Status: "
+msgstr ""
+
+#: ../includes/bkb-custom-meta-box.php:248
+msgid "Display Voting Box: "
+msgstr ""
+
+#: ../includes/bkb-custom-meta-box.php:253
+#: ../includes/bkb-related-post-custom-meta-box.php:144
+msgid "Hide"
+msgstr ""
+
+#: ../includes/bkb-custom-meta-box.php:255
+msgid "Voting Closed"
+msgstr ""
+
+#: ../includes/bkb-custom-meta-box.php:261
+msgid "Voting Feedbacks"
+msgstr ""
+
+#: ../includes/bkb-custom-meta-box.php:291
+msgid "Question Submitted By: "
+msgstr ""
+
+#: ../includes/bkb-custom-meta-box.php:300
+msgid "Send Notification Email: "
+msgstr ""
+
+#: ../includes/bkb-custom-meta-box.php:310
+msgid "This field value will not saved in database."
+msgstr ""
+
+#: ../includes/bkb-custom-meta-box.php:348
+msgid "Knowledgebase Question has been updated!"
+msgstr ""
+
+#: ../includes/bkb-helpers.php:34
+msgid " Please Write Your Feedback Message"
+msgstr ""
+
+#: ../includes/bkb-helpers.php:35
+msgid "Thanks for your feedback!"
+msgstr ""
+
+#: ../includes/bkb-helpers.php:36
+msgid "Unable to receive your feedback. Please try again !"
+msgstr ""
+
+#: ../includes/bkb-helpers.php:37
+msgid " Incorrect Captcha Value!"
+msgstr ""
+
+#: ../includes/bkb-helpers.php:38
+msgid " Write your question. Min length 3 characters !"
+msgstr ""
+
+#: ../includes/bkb-helpers.php:39
+msgid " Select A KB Category!"
+msgstr ""
+
+#: ../includes/bkb-helpers.php:40
+msgid " Valid email address required!"
+msgstr ""
+
+#: ../includes/bkb-helpers.php:42
+msgid "Question successfully added for review!"
+msgstr ""
+
+#: ../includes/bkb-helpers.php:43
+msgid "Unable to add Question. Please try again!"
+msgstr ""
+
+#: ../includes/bkb-helpers.php:44
+msgid "Please Wait ....."
+msgstr ""
+
+#: ../includes/bkb-helpers.php:45
+msgid "Sorry Nothing Found!"
+msgstr ""
+
+#: ../includes/bkb-helpers.php:129
+msgid "- Select Icon -"
+msgstr ""
+
+#: ../includes/bkb-helpers.php:157
+msgid "Search Knowledgebase"
+msgstr ""
+
+#: ../includes/bkb-helpers.php:173
+msgid "Ask a new Knowledgebase Question"
+msgstr ""
+
+#: ../includes/bkb-helpers.php:173
+msgid "Ask A Question?"
+msgstr ""
+
+#: ../includes/bkb-helpers.php:322 ../shortcode/bkb-tabify-shortcode.php:89
+#: ../tinymce/bkb_shortcode_editor.php:44
+msgid "Popular"
+msgstr ""
+
+#: ../includes/bkb-helpers.php:322 ../shortcode/bkb-tabify-shortcode.php:93
+#: ../tinymce/bkb_shortcode_editor.php:45
+msgid "Recent"
+msgstr ""
+
+#: ../includes/bkb-quick-edit.php:24 ../includes/bkb-quick-edit.php:48
+#: ../includes/bkb-quick-edit.php:77 ../includes/bkb-quick-edit.php:112
+msgid "Select"
+msgstr ""
+
+#: ../includes/bkb-quick-edit.php:110
+msgid "Hide From Blog List?"
+msgstr ""
+
+#: ../includes/bkb-related-post-custom-meta-box.php:139
+msgid "Related Post Display Status: "
+msgstr ""
+
+#: ../includes/bkb-related-post-custom-meta-box.php:152
+msgid "Related Post Filter Type: "
+msgstr ""
+
+#: ../includes/bkb-related-post-custom-meta-box.php:158
+msgid "Tag"
+msgstr ""
+
+#: ../includes/bkb-single-post-functions.php:191
+msgid "Edit"
+msgstr ""
+
+#: ../includes/bkb-single-post-functions.php:393
+msgid "Related Knowledge Base Posts -"
+msgstr ""
+
+#: ../includes/bkb-single-post-functions.php:416
+msgid "No related posts found !"
+msgstr ""
+
+#: ../includes/bkb-single-post-functions.php:454
+msgid "Attachments -"
+msgstr ""
+
+#: ../includes/bkb-single-post-functions.php:477
+msgid " File# "
+msgstr ""
+
+#: ../includes/bkb-vote-counter.php:116
+msgid " LogIn Required To submit vote!"
+msgstr ""
+
+#: ../includes/bkb-vote-counter.php:176
+msgid " Thanks for your vote!"
+msgstr ""
+
+#: ../includes/bkb-vote-counter.php:184
+msgid " You have already submitted your vote!"
+msgstr ""
+
+#: ../includes/bkb-vote-counter.php:250
+msgid "New Feedback Submited!"
+msgstr ""
+
+#: ../includes/bkb-vote-counter.php:253
+#: ../shortcode/bkb-shortcode-kb-question-submit-form.php:231
+msgid "Hello Administrator"
+msgstr ""
+
+#: ../includes/bkb-vote-counter.php:253
+msgid "A new Feedback has been submitted by a user."
+msgstr ""
+
+#: ../includes/bkb-vote-counter.php:254
+msgid "Submitted Feedback"
+msgstr ""
+
+#: ../includes/bkb-vote-counter.php:256
+msgid "Review Feedback"
+msgstr ""
+
+#: ../includes/bkb-vote-counter.php:257
+#: ../shortcode/bkb-shortcode-kb-question-submit-form.php:236
+msgid "Thank You!"
+msgstr ""
+
+#: ../includes/custom-tax-class/bkb-custom-taxnomy.php:38
+msgid "Custom Icon"
+msgstr ""
+
+#: ../includes/custom-tax-class/bkb-custom-taxnomy.php:41
+msgid "Upload Own Icon?"
+msgstr ""
+
+#: ../includes/custom-tax-class/bkb-custom-taxnomy.php:43
+msgid "Upload Icon "
+msgstr ""
+
+#: ../includes/custom-tax-class/bkb-custom-taxnomy.php:43
+msgid "Best size 16px X 16 px"
+msgstr ""
+
+#: ../includes/custom-tax-class/bkb-tax-custom-column.php:14
+#: ../includes/custom-tax-class/bkb-tax-custom-column.php:81
+msgid "Icons"
+msgstr ""
+
+#: ../includes/custom-tax-class/tax-meta-class/tax-meta-class.php:373
+#: ../includes/custom-tax-class/tax-meta-class/tax-meta-class.php:420
+#: ../option-panel/admin-page-class/admin-page-class.php:1447
+#: ../option-panel/admin-page-class/admin-page-class.php:1492
+msgid "Remove"
+msgstr ""
+
+#: ../includes/custom-tax-class/tax-meta-class/tax-meta-class.php:386
+#: ../option-panel/admin-page-class/admin-page-class.php:1459
+msgid "Add"
+msgstr ""
+
+#: ../includes/custom-tax-class/tax-meta-class/tax-meta-class.php:719
+msgid "Remove Image"
+msgstr ""
+
+#: ../includes/custom-tax-class/tax-meta-class/tax-meta-class.php:721
+#: ../option-panel/admin-page-class/admin-page-class.php:1880
+#: ../option-panel/admin-page-class/admin-page-class.php:1913
+msgid "Upload Image"
+msgstr ""
+
+#: ../includes/custom-tax-class/tax-meta-class/tax-meta-class.php:741
+#: ../option-panel/admin-page-class/admin-page-class.php:1990
+#: ../option-panel/admin-page-class/admin-page-class.php:2016
+msgid "Select a color"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:408
+msgid "Allowed Files"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:639
+#: ../option-panel/admin-page-class/admin-page-class.php:641
+msgid "Insert into Post"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:639
+msgid "Use this File"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:641
+msgid "Use this Image"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:673
+#: ../option-panel/admin-page-class/admin-page-class.php:772
+msgid "Save Changes"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:686
+msgid "Settings saved."
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:1147
+msgid "Delete this image"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:1147
+#: ../option-panel/admin-page-class/admin-page-class.php:1842
+msgid "Delete"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:1242
+msgid "Cannot delete file. Something's wrong."
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:1633
+msgid "Select Files"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:1838
+msgid "Uploaded files"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:1849
+msgid "Upload new files"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:1855
+msgid "Add more files"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:1875
+#: ../option-panel/admin-page-class/admin-page-class.php:1908
+msgid "Delete Image"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3244
+msgid "Export"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3245
+msgid ""
+"To export saved settings click the Export button bellow and you will get the "
+"export Code in the box bellow, which you can later use to import."
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3247
+msgid "Export Code"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3249
+msgid "Get Export"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3254
+#: ../option-panel/admin-page-class/admin-page-class.php:3259
+msgid "Import"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3255
+msgid ""
+"To Import saved settings paste the Export output in to the Import Code box "
+"bellow and click Import."
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3257
+msgid "Import Code"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3284
+msgid "error in ajax request! (1)"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3294
+msgid "error in ajax request! (2)"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3315
+msgid "error in ajax request! (3)"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3327
+msgid "Setting imported, make sure you "
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3327
+msgid "Refresh this page"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3329
+msgid "Could not import settings! (4)"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3350
+msgid "You do not have sufficient permissions to edit templates for this site."
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3353
+msgid "Error Downloading file."
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3375
+#: ../option-panel/admin-page-class/admin-page-class.php:3378
+msgid "Download Export"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3445
+msgid "Not Valid "
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3463
+msgid "Errors in saving changes"
+msgstr ""
+
+#: ../option-panel/admin-page-class/admin-page-class.php:3488
+msgid "Unkown Error"
+msgstr ""
+
+#: ../option-panel/bkb-addon-settings.php:13
+msgid "Available Addons for BWL Knowledge Base Manager"
+msgstr ""
+
+#: ../option-panel/bkb-addon-settings.php:14
+msgid "Plugin Add-ons"
+msgstr ""
+
+#: ../option-panel/bkb-addon-template.php:42
+msgid "Available Add-ons"
+msgstr ""
+
+#: ../option-panel/bkb-addon-template.php:49
+#: ../option-panel/bkb-addon-template.php:60
+msgid "Installed"
+msgstr ""
+
+#: ../option-panel/bkb-addon-template.php:51
+#: ../option-panel/bkb-addon-template.php:62
+msgid "Install Now"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-menu.php:17
+msgid "Thanks for Installing BWL Knowledge Base Manager."
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-menu.php:17
+msgid "Plugin Info"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:16
+msgid "Option Panel"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:38
+msgid "General"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:39
+#: ../option-panel/plugin-option-panel-settings.php:346
+msgid "Knowledege Base Page"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:40
+msgid "Theme Options"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:42
+#: ../option-panel/plugin-option-panel-settings.php:133
+msgid "Voting Options"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:43
+msgid "Tipsy Settings"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:44
+#: ../option-panel/plugin-option-panel-settings.php:294
+msgid "Icons Settings"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:45
+msgid "Advance"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:53
+#: ../option-panel/plugin-option-panel-settings.php:395
+msgid "WooCommerce Settings"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:61
+#: ../option-panel/plugin-option-panel-settings.php:477
+msgid "Template Settings"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:73
+msgid "General Options"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:76
+msgid "Login Required? "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:76
+msgid "Allow voting & submit questions only for registered users."
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:79
+msgid "Load Font Awesome "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:79
+msgid ""
+"If your theme already loaded Font Awesome icons, then you can disable this "
+"option."
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:82
+msgid "Display Sticky Button? "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:82
+msgid "Display sticky search and add question button."
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:85
+msgid "Hide External Question Submission Form? "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:88
+msgid "External Question Submission Form Title"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:88
+#: ../shortcode/bkb-shortcode-kb-question-submit-form.php:102
+msgid "Add A Knowledge Base Question !"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:88
+msgid "Set external knowledgebase submission FORM title in here."
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:91
+msgid "Ask User Email"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:91
+msgid ""
+"Force users to submit their Email while submit question. Admin can notify "
+"user when question will publish or update."
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:94
+msgid "Feedback Form Title"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:94
+msgid "Tell us how can we improve this post?"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:94
+msgid "Set Feedback Form title in here."
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:97
+msgid "Send Feedback Message To Admin"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:97
+msgid "Turn it ON to get user feedback notification."
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:100
+msgid "Admin Email "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:100
+msgid ""
+"Set an email address to get Ask A Question & Feedback submit notification"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:103
+msgid "Enable RTL Support? "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:103
+msgid "Load Right to Left support stylesheet for Arabic language."
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:111
+msgid "Theme Settings"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:116
+msgid "Heading Link Color "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:117
+msgid "Heading Link Hover Color "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:118
+msgid "Category/Topics Description Color "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:120
+#: ../option-panel/plugin-option-panel-settings.php:512
+msgid "Search Box Settings"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:122
+msgid "Results Background"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:123
+msgid "Results Text Color"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:149
+msgid "Like Thumb Icon"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:153
+msgid "Like Thumb Color"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:156
+msgid "Upload Like Icon "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:162
+msgid "Upload Custom Like Icon? "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:163
+msgid ""
+"<small>You can upload custom icon for like button. Best size 16x16 PX</small>"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:169
+msgid "Disable Feedback From? "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:169
+msgid "You can disable feedback from for down vote."
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:172
+msgid "Disable Down Vote? "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:172
+msgid "You can disable down voting option"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:185
+msgid "Dislike Thumb Icon"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:190
+msgid "Dislike Thumb Color "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:193
+msgid "Upload Dislike Icon "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:198
+msgid "Upload Custom Dislike Icon? "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:199
+msgid ""
+"<small>You can upload custom icon for dislike button. Best size 16x16 PX</"
+"small>"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:205
+msgid "Like Bar Color"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:208
+msgid "Dislike Bar Color "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:213
+msgid "Voting Interval "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:215
+msgid ""
+"e.g: we set 120 min(2 hours) interval between repeated votes in a same post"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:217
+msgid "must be number. e.g: 120"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:229
+msgid "Advance Setting"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:232
+msgid "IP Filter Status: "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:232
+msgid ""
+"If you disable this option then your can submit multiple votes from single "
+"IP address."
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:234
+msgid "Custom Slug"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:234
+msgid ""
+"<b>Example:</b> http://yourdomain.com/custom-slug/faq-4/ <br /><b>Note:</b> "
+"You may face 404 issue after changing slug value. To solve that, Go to "
+"Settings>Permalinks. Select \"Default\" from Common Settings, click save. "
+"Then again select \"Post name\" radio button and click save. Issue will be "
+"solved."
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:237
+#: ../option-panel/plugin-option-panel-settings.php:246
+msgid "Additional Title Text "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:237
+#: ../option-panel/plugin-option-panel-settings.php:246
+msgid ""
+"<b>Tips</b> : You can add seperators like Vertical bar (|) , Hyphen (-) "
+"before/after additional text."
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:238
+msgid "Additional text display before Category title ? "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:240
+msgid "Display Only Category Name in page title ? "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:242
+msgid ""
+"If you enable(ON) this option then only category title will display in page "
+"title"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:247
+msgid "Additional text display before Tag Title ? "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:249
+msgid "Display Only Tag Name in page title ? "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:251
+msgid ""
+"If you enable(ON) this option then only tag title will display in page title."
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:254
+msgid "Disable Attachment Uploader"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:254
+msgid "You can disable attachment uploader for knowledgebase contents"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:257
+msgid "Display Attachment File Name?"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:257
+msgid ""
+"You can show attachment file names with knowledgebase contents instead of "
+"File#1, File#2 and so on!"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:260
+msgid "Custom CSS "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:260
+msgid "You can write custom css code in here."
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:263
+msgid "Auto Update Notification: "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:263
+msgid ""
+"If you enable this option then you will get notification while we release "
+"new version. <b style=\"color: #e32e31;\">We strongly recommend to take a "
+"backup of your language file/custom css code/custom scripts before applying "
+"updates.</b>"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:271
+msgid "Tipsy Options"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:274
+msgid "Show Tool Tip "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:274
+msgid "You can disable Like/Dislike tooltip text."
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:277
+msgid "Like Hover Title"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:277
+msgid "Like The Post"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:280
+msgid "Dislike Hover Title"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:280
+msgid "Dislike The Post"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:283
+msgid "Tipsy Background"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:286
+msgid "Tipsy Text Color"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:298
+msgid "Category Icon"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:298
+msgid "Select default icon for categories title and list items."
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:299
+msgid "Tag Icon"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:299
+msgid "Select default icon for Tags title and list items."
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:316
+msgid "Boxed View Icon Size"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:319
+msgid "Custom Image Icon Settings"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:331
+msgid "List View Thumb Size"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:335
+msgid "Box View Thumb Size"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:350
+msgid "KB List Text Color"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:351
+msgid "KB List Background"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:353
+msgid "KB List Hover Text Color"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:354
+msgid "KB List Hover Background"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:360
+msgid "KB List Style Type"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:361
+msgid "Note: You can also manage this from shortcode"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:363
+msgid "KB List Box Text Color"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:364
+msgid "KB List Box Background"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:366
+msgid "Tab Border Color "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:370
+msgid "Comment Display Settings"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:373
+msgid "Enable Comment? "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:373
+msgid ""
+"Theme support required to display comment box after knowledgebase details."
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:378
+msgid "Meta Information Display Settins"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:381
+msgid "Display Date? "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:382
+msgid "Display View Counter? "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:383
+msgid "Display Author Name? "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:384
+msgid "Display Category? "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:385
+msgid "Display Topics? "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:398
+msgid "Knowledge base Tab Position"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:398
+msgid ""
+"Set number like- 1,2,3. Set big number(100, 200, 300) to display Knowledge "
+"Base tab at the last of tab contain ."
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:401
+msgid "Show Total KB Counter? "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:401
+msgid "Show total number of Knowledge Base items."
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:404
+msgid "Auto hide tab if total KB items is zero? "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:404
+msgid ""
+"Enabling this option will automatically hide KB tab, if total no of KB is "
+"zero."
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:416
+msgid "Themes"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:438
+msgid "Animations"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:442
+msgid "Highlighter Background"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:443
+msgid "Highlighter Text Color"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:446
+msgid "Show Search Box? "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:446
+msgid "You can disable search section from knowledge base tab."
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:449
+msgid "RTL Mode? "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:449
+msgid "You can enable RTL mode for Arabic Language!"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:454
+msgid "Items Per Page"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:454
+msgid "Set how many items you like to display per page."
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:459
+msgid "Enable Pagination? "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:482
+msgid "Category Template Settings"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:484
+msgid "Enable KB Category Template? "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:485
+msgid "Display Category Description? "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:489
+msgid "Category Page Layout"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:493
+msgid "Tag Template Settings"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:495
+msgid "Enable KB Tag Template? "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:496
+msgid "Display Tag Description? "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:500
+msgid "Tag Page Layout"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:504
+msgid "Single Template Settings"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:506
+msgid "Enable Single KB Post Template? "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:510
+msgid "Single KB Page Layout"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:514
+msgid "Display Search Box? "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:514
+msgid "Search Box Will display top of the category/tag title"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:518
+msgid "Breadcrumb Settings"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:520
+msgid "Knowledge base Home Page Title"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:520
+msgid "This text will display as the knowledgebase home title."
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:521
+msgid "Knowledge base Home Page Slug"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:521
+msgid ""
+"This field is required to fetch knowledgebase home URL. Check documentation "
+"for more details."
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:526
+msgid "Enable Breadcrumb? "
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:532
+msgid "Widget Settings"
+msgstr ""
+
+#: ../option-panel/plugin-option-panel-settings.php:539
+msgid "Widget Heading Tag"
+msgstr ""
+
+#: ../shortcode/bkb-shortcode-kb-question-submit-form.php:69
+msgid "- Select KB Category -"
+msgstr ""
+
+#: ../shortcode/bkb-shortcode-kb-question-submit-form.php:76
+#: ../shortcode/bkb-shortcodes.php:814
+msgid "Captcha:"
+msgstr ""
+
+#: ../shortcode/bkb-shortcode-kb-question-submit-form.php:81
+#: ../shortcode/bkb-shortcodes.php:819
+msgid "Verify Human or Spambot ?"
+msgstr ""
+
+#: ../shortcode/bkb-shortcode-kb-question-submit-form.php:96
+msgid "Your Email: "
+msgstr ""
+
+#: ../shortcode/bkb-shortcode-kb-question-submit-form.php:97
+msgid "You will get a notification email when Knowledgebase answerd/updated!"
+msgstr ""
+
+#: ../shortcode/bkb-shortcode-kb-question-submit-form.php:119
+msgid "Question Title: "
+msgstr ""
+
+#: ../shortcode/bkb-shortcode-kb-question-submit-form.php:124
+msgid "Category:"
+msgstr ""
+
+#: ../shortcode/bkb-shortcode-kb-question-submit-form.php:131
+#: ../shortcode/bkb-shortcodes.php:836
+msgid "Submit"
+msgstr ""
+
+#: ../shortcode/bkb-shortcode-kb-question-submit-form.php:146
+msgid "Log In is required for submitting new question."
+msgstr ""
+
+#: ../shortcode/bkb-shortcode-kb-question-submit-form.php:228
+msgid "New Knowledge Base Question Submited!"
+msgstr ""
+
+#: ../shortcode/bkb-shortcode-kb-question-submit-form.php:231
+msgid "A new Knowledge Base question has been submitted by a user."
+msgstr ""
+
+#: ../shortcode/bkb-shortcode-kb-question-submit-form.php:232
+msgid "Submitted Question Information"
+msgstr ""
+
+#: ../shortcode/bkb-shortcode-kb-question-submit-form.php:233
+#: ../tinymce/bkb_shortcode_editor.php:581
+#: ../tinymce/bkb_shortcode_editor.php:683
+#: ../widget/bkb-category-widget.php:45
+#: ../widget/bkb-related-posts-widget.php:59 ../widget/bkb-tags-widget.php:45
+#: ../widget/bkb-widget.php:64
+msgid "Title"
+msgstr ""
+
+#: ../shortcode/bkb-shortcode-kb-question-submit-form.php:234
+msgid "KB Status"
+msgstr ""
+
+#: ../shortcode/bkb-shortcode-kb-question-submit-form.php:234
+msgid "Pending"
+msgstr ""
+
+#: ../shortcode/bkb-shortcode-kb-question-submit-form.php:235
+msgid "Review KB"
+msgstr ""
+
+#: ../shortcode/bkb-shortcodes.php:246
+msgid "Sorry, No Knowledgebase Item Available!"
+msgstr ""
+
+#: ../shortcode/bkb-shortcodes.php:544
+msgid "Search Keywords ..... "
+msgstr ""
+
+#: ../shortcode/bkb-shortcodes.php:621
+msgid "Voting Closed !"
+msgstr ""
+
+#: ../shortcode/bkb-shortcodes.php:766
+msgid "Loading ....."
+msgstr ""
+
+#: ../shortcode/bkb-shortcodes.php:798
+msgid "Total"
+msgstr ""
+
+#: ../shortcode/bkb-shortcodes.php:798
+msgid "Votes:"
+msgstr ""
+
+#: ../shortcode/bkb-shortcodes.php:831
+msgid "Write feedback message ..... "
+msgstr ""
+
+#: ../shortcode/bkb-shortcodes.php:873
+msgid "Add a Question"
+msgstr ""
+
+#: ../tinymce/bkb_shortcode_editor.php:445
+msgid "BWL Knowledge Base Shortcode Editor"
+msgstr ""
+
+#: ../tinymce/bkb_shortcode_editor.php:487
+msgid "Search Box"
+msgstr ""
+
+#: ../tinymce/bkb_shortcode_editor.php:496
+msgid "Display Tab Items?"
+msgstr ""
+
+#: ../tinymce/bkb_shortcode_editor.php:503
+msgid "TAB Items"
+msgstr ""
+
+#: ../tinymce/bkb_shortcode_editor.php:525
+#: ../tinymce/bkb_shortcode_editor.php:572
+#: ../tinymce/bkb_shortcode_editor.php:674
+msgid "No of Items"
+msgstr ""
+
+#: ../tinymce/bkb_shortcode_editor.php:533
+msgid "Display Category Items?"
+msgstr ""
+
+#: ../tinymce/bkb_shortcode_editor.php:540
+msgid "Select Categories"
+msgstr ""
+
+#: ../tinymce/bkb_shortcode_editor.php:565
+#: ../tinymce/bkb_shortcode_editor.php:667
+msgid "No of Columns"
+msgstr ""
+
+#: ../tinymce/bkb_shortcode_editor.php:577
+#: ../tinymce/bkb_shortcode_editor.php:679
+msgid "Order Settings"
+msgstr ""
+
+#: ../tinymce/bkb_shortcode_editor.php:579
+#: ../tinymce/bkb_shortcode_editor.php:681
+msgid "Order By"
+msgstr ""
+
+#: ../tinymce/bkb_shortcode_editor.php:580
+#: ../tinymce/bkb_shortcode_editor.php:682
+msgid "ID"
+msgstr ""
+
+#: ../tinymce/bkb_shortcode_editor.php:583
+#: ../tinymce/bkb_shortcode_editor.php:685
+msgid "Random Order"
+msgstr ""
+
+#: ../tinymce/bkb_shortcode_editor.php:587
+#: ../tinymce/bkb_shortcode_editor.php:689
+msgid "Order Type"
+msgstr ""
+
+#: ../tinymce/bkb_shortcode_editor.php:588
+#: ../tinymce/bkb_shortcode_editor.php:690 ../widget/bkb-widget.php:140
+msgid "Ascending"
+msgstr ""
+
+#: ../tinymce/bkb_shortcode_editor.php:589
+#: ../tinymce/bkb_shortcode_editor.php:691 ../widget/bkb-widget.php:141
+msgid "Descending"
+msgstr ""
+
+#: ../tinymce/bkb_shortcode_editor.php:594
+#: ../tinymce/bkb_shortcode_editor.php:696
+msgid "Display Settings"
+msgstr ""
+
+#: ../tinymce/bkb_shortcode_editor.php:597
+#: ../tinymce/bkb_shortcode_editor.php:699
+msgid "View Type"
+msgstr ""
+
+#: ../tinymce/bkb_shortcode_editor.php:598
+#: ../tinymce/bkb_shortcode_editor.php:700
+msgid "Lists View"
+msgstr ""
+
+#: ../tinymce/bkb_shortcode_editor.php:599
+#: ../tinymce/bkb_shortcode_editor.php:701
+msgid "Boxed View"
+msgstr ""
+
+#: ../tinymce/bkb_shortcode_editor.php:603
+#: ../tinymce/bkb_shortcode_editor.php:705
+msgid "Lists Style"
+msgstr ""
+
+#: ../tinymce/bkb_shortcode_editor.php:604
+#: ../tinymce/bkb_shortcode_editor.php:706
+msgid "Rounded"
+msgstr ""
+
+#: ../tinymce/bkb_shortcode_editor.php:605
+#: ../tinymce/bkb_shortcode_editor.php:707
+msgid "Rectangle"
+msgstr ""
+
+#: ../tinymce/bkb_shortcode_editor.php:606
+#: ../tinymce/bkb_shortcode_editor.php:708
+msgid "Iconized"
+msgstr ""
+
+#: ../tinymce/bkb_shortcode_editor.php:607
+#: ../tinymce/bkb_shortcode_editor.php:709
+msgid "None"
+msgstr ""
+
+#: ../tinymce/bkb_shortcode_editor.php:617
+#: ../tinymce/bkb_shortcode_editor.php:719
+msgid "Post Count"
+msgstr ""
+
+#: ../tinymce/bkb_shortcode_editor.php:623
+#: ../tinymce/bkb_shortcode_editor.php:725
+msgid "Show Description"
+msgstr ""
+
+#: ../tinymce/bkb_shortcode_editor.php:635
+msgid "Display Tag Items?"
+msgstr ""
+
+#: ../tinymce/bkb_shortcode_editor.php:642
+msgid "Select Tags"
+msgstr ""
+
+#: ../widget/bkb-category-widget.php:25
+msgid "Display Knowledget Base Categories."
+msgstr ""
+
+#: ../widget/bkb-category-widget.php:34
+msgid "Categories"
+msgstr ""
+
+#: ../widget/bkb-related-posts-widget.php:25
+msgid "BKBM Related Posts"
+msgstr ""
+
+#: ../widget/bkb-related-posts-widget.php:28
+msgid "Display related posts in single pages widget area"
+msgstr ""
+
+#: ../widget/bkb-related-posts-widget.php:37
+msgid "Related Knowledge Base Posts"
+msgstr ""
+
+#: ../widget/bkb-related-posts-widget.php:70
+msgid "Related Posts Type:"
+msgstr ""
+
+#: ../widget/bkb-related-posts-widget.php:96 ../widget/bkb-widget.php:147
+msgid "No Of Posts"
+msgstr ""
+
+#: ../widget/bkb-related-posts-widget.php:257 ../widget/bkb-widget.php:385
+msgid "No Post Found!"
+msgstr ""
+
+#: ../widget/bkb-tags-widget.php:25
+msgid "Display Knowledget Base Tags."
+msgstr ""
+
+#: ../widget/bkb-widget.php:25
+msgid "BKBM Widget"
+msgstr ""
+
+#: ../widget/bkb-widget.php:28
+msgid ""
+"Display Top Up Voted / Top Down Voted/ Top Viewed / Recent Posts in widget "
+"area"
+msgstr ""
+
+#: ../widget/bkb-widget.php:37
+msgid "KnowledeBase"
+msgstr ""
+
+#: ../widget/bkb-widget.php:108
+msgid "Display Type:"
+msgstr ""
+
+#: ../widget/bkb-widget.php:138
+msgid "Order Type:"
+msgstr ""
+
+#: ../widget/bkb-widget.php:157
+msgid "Display View Counter"
+msgstr ""
+
+#: ../widget/bkb-widget.php:165
+msgid "Display Like Counter"
+msgstr ""
+
+#: ../widget/bkb-widget.php:173
+msgid "Display Dislike Counter"
+msgstr ""

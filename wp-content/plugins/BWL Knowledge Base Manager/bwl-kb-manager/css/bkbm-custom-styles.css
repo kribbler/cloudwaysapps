@@ -1,0 +1,1600 @@
+/*!
+ *  BWL Knowledge Base Manager Custom Styles 1.0.6 by @xenioushk - http://www.bluewindlab.net
+ */
+
+
+/*------------------------------ Start simplegrid.css  ---------------------------------*/
+
+/*
+  Simple Grid
+  Learn More - http://dallasbass.com/simple-grid-a-lightweight-responsive-css-grid/
+  Project Page - http://thisisdallas.github.com/Simple-Grid/
+  Author - Dallas Bass
+  Site - dallasbass.com
+*/
+
+*, *:after, *:before {
+/*    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;*/
+}
+
+body {
+    margin: 0px;
+}
+
+[class*='bkbcol-'] {
+    float: left;
+    padding-right: 0px;
+}
+
+[class*='bkbcol-']:last-of-type {
+    padding-right: 0px;
+}
+
+.grid {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.grid:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.grid-pad {
+    /*padding: 20px 0 0px 20px;*/
+}
+
+.grid-pad > [class*='bkbcol-']:last-of-type {
+    padding-right: 0px;
+}
+
+.push-right {
+    float: right;
+}
+
+/* Content Columns */
+
+.bkbcol-1-1 {
+    width: 100%;
+}
+.bkbcol-2-3, .bkbcol-8-12 {
+    width: 66.66%;
+}
+
+.bkbcol-1-2, .bkbcol-6-12 {
+    width: 50%;
+}
+
+.bkbcol-1-3, .bkbcol-4-12 {
+    width: 33.33%;
+}
+
+.bkbcol-1-4, .bkbcol-3-12 {
+    width: 25%;
+}
+
+.bkbcol-1-5 {
+    width: 20%;
+}
+
+.bkbcol-1-6, .bkbcol-2-12 {
+    width: 16.667%;
+}
+
+.bkbcol-1-7 {
+    width: 14.28%;
+}
+
+.bkbcol-1-8 {
+    width: 12.5%;
+}
+
+.bkbcol-1-9 {
+    width: 11.1%;
+}
+
+.bkbcol-1-10 {
+    width: 10%;
+}
+
+.bkbcol-1-11 {
+    width: 9.09%;
+}
+
+.bkbcol-1-12 {
+    width: 8.33%
+}
+
+/* Layout Columns */
+
+.bkbcol-11-12 {
+    width: 91.66%
+}
+
+.bkbcol-10-12 {
+    width: 83.333%;
+}
+
+.bkbcol-9-12 {
+    width: 75%;
+}
+
+.bkbcol-5-12 {
+    width: 41.66%;
+}
+
+.bkbcol-7-12 {
+    width: 58.33%
+}
+
+@media handheld, only screen and (max-width: 767px) {
+
+
+    .grid {
+        width: 100%;
+        min-width: 0;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    [class*='bkbcol-'] {
+        width: auto;
+        float: none;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+/*------------------------------ End simplegrid.css  ---------------------------------*/
+
+/*------------------------------ Start jquery.remodal.css  ---------------------------------*/
+
+/*! Remodal - v0.1.6 - 2014-05-16
+ * https://github.com/VodkaBears/remodal
+ * Copyright (c) 2014 VodkaBears; */
+
+/* ==========================================================================
+   Remodal necessary styles
+   ========================================================================== */
+
+/* Hide scroll bar */
+
+html.remodal_lock, body.remodal_lock {
+    overflow: hidden;
+}
+
+/* Anti FOUC */
+
+.remodal, [data-remodal-id] {
+    visibility: hidden;
+    display: none;
+}
+
+/* Overlay necessary styles */
+
+.remodal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10000;
+
+    display: none;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    text-align: center;
+}
+
+.remodal-overlay:after {
+    display: inline-block;
+    height: 100%;
+    margin-left: -0.05em;
+
+    content: '';
+}
+
+/* Fix iPad, iPhone glitches */
+
+.remodal-overlay > * {
+    -webkit-transform: translateZ(0px);
+}
+
+/* Modal dialog necessary styles */
+
+.remodal {
+    position: relative;
+
+    display: inline-block;
+}
+
+/* ==========================================================================
+   Remodal default theme
+   ========================================================================== */
+
+/* Default theme font */
+
+
+.remodal, .remodal * {
+    font-family: inherit;
+}
+
+/* Background for effects */
+
+.remodal-bg {
+    -webkit-transition: -webkit-filter 0.2s linear;
+    -moz-transition: -moz-filter 0.2s linear;
+    -o-transition: -o-filter 0.2s linear;
+    transition: filter 0.2s linear;
+}
+
+body.remodal_active .remodal-bg {
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+}
+
+/* Overlay default theme styles */
+
+.remodal-overlay {
+    opacity: 0;
+    display: none;
+    background: rgba(33, 36, 46, 0.95);
+    -webkit-transition: opacity 0.2s linear;
+    -moz-transition: opacity 0.2s linear;
+    -o-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
+}
+
+body.remodal_active .remodal-overlay {
+    opacity: 1;
+}
+
+/* Modal dialog default theme styles */
+
+.remodal {
+    width: 100%;
+    min-height: 100%;
+    padding: 35px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    font-size: 14px;
+    background: #f4f4f4;
+    background-clip: padding-box;
+    color: #182a3c;
+    -webkit-box-shadow: 0px 0px 8px #171a24;
+    box-shadow: 0px 0px 8px #171a24;
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    transform: scale(0.95);
+    -webkit-transition: -webkit-transform 0.2s linear;
+    -moz-transition: -moz-transform 0.2s linear;
+    -o-transition: -o-transform 0.2s linear;
+    transition: transform 0.2s linear;
+}
+
+body.remodal_active .remodal {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+
+/* Modal dialog vertical align  */
+
+.remodal, .remodal-overlay:after {
+    vertical-align: middle;
+}
+
+/* Close button */
+
+.remodal-close {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+
+    width: 28px;
+    height: 28px;
+
+    text-decoration: none;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid #3e5368;
+    -webkit-transition: background 0.2s linear;
+    -moz-transition: background 0.2s linear;
+    -o-transition: background 0.2s linear;
+    transition: background 0.2s linear;
+}
+
+.remodal-close:after {
+    display: block;
+
+    font-size: 28px;
+    font-family: Arial, 'Helvetica CY', 'Nimbus Sans L', sans-serif !important;
+    content: "×";
+    line-height: 28px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #3e5368;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.remodal-close:hover, .remodal-close:active {
+    background: #3e5368;
+}
+
+.remodal-close:hover.remodal-close:after, .remodal-close:active.remodal-close:after {
+    color: #f4f4f4;
+}
+
+/* Dialog buttons */
+
+.remodal-confirm, .remodal-cancel {
+    display: inline-block;
+    width: 120px;
+    padding: 9px 0;
+    margin: 0 0 5px 0;
+
+    font-size: 10pt;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    background-clip: padding-box;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.remodal-confirm {
+    border: 2px solid #16a085;
+    background: #f4f4f4;
+    color: #16a085;
+}
+
+.remodal-confirm:hover, .remodal-confirm:active {
+    background: #16a085;
+    color: #f4f4f4;
+}
+
+.remodal-cancel {
+    border: 2px solid #c0392b;
+    background: #f4f4f4;
+    color: #c0392b;
+}
+
+.remodal-cancel:hover, .remodal-cancel:active {
+    background: #c0392b;
+    color: #f4f4f4;
+}
+
+/* Media queries
+   ========================================================================== */
+
+@media only screen and (min-width: 40.063em) /* min-width 641px */ {
+    .remodal {
+        max-width: 700px;
+        margin: 20px auto;
+        min-height: 0;
+
+        -webkit-border-radius: 6px;
+        border-radius: 6px;
+    }
+}
+
+/*------------------------------ End jquery.remodal.css  ---------------------------------*/
+
+/*------------------------------ Start bkb-tabify.css  ---------------------------------*/
+
+/*
+*@Title: BKB Tabify Stylesheet
+*@Version: 1.0.0
+*@Created Date: 15-12-2013
+*@Last Edited Date: 06-06-2014
+*/
+
+div.bkb-tab-content {
+    background-color:#ffffff;
+    box-sizing: border-box;
+    padding:3px; 	
+    width: 99%;
+    outline: none;    
+}
+
+.bkb-content-wrapper{
+    clear:both;
+    border: 1px solid #ccc;
+    margin: 0 0 11px 0;
+    padding: 0;
+}
+
+.bkb-wrapper{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.bkb-wrapper+form,
+form+.bkb-wrapper{
+    margin-top: 24px;
+}
+
+.bkb-wrapper ul.bkb-tabs {
+    
+    position: relative;
+    z-index: 50;
+    padding: 0px;
+    margin: 0px 0px -1px 0px;
+}
+
+.bkb-wrapper ul.bkb-tabs li{
+    display: block;
+    background: none;
+    float:left;
+    margin: 0;
+    padding: 0;
+}
+
+.bkb-wrapper ul.bkb-tabs li a{
+    list-style:none;
+    display: block;
+    padding: 5px 11px ;
+    text-decoration: none;        
+    color: black;    
+    font-size: 17px;
+    background: #fff;
+    outline: none;
+}
+
+.bkb-wrapper ul.bkb-tabs li.active a{
+
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    margin-bottom: -1px;
+}
+
+.bkb-wrapper ul.bkb-tabs li.active{
+    border-top: 3px solid #2c2c2c;
+    position: relative;
+}
+
+div.bkb-tab-content ol.bwl-kb-categories{
+    margin-bottom: 0px;
+}
+
+div.bkb-tab-content ol.bwl-kb-categories li{
+    margin: 5px 0px 5px 18px;
+}
+
+/*-------------------------Tabify None Lists Styling --------------------------------------*/
+
+div.bkb-tab-content ol.none-list li{
+    margin: 5px 0px 5px 10px;
+}
+
+/*------------------------------ Responsive Tab Section  ---------------------------------*/
+
+/***********************************************************************************************/
+/* MEDIA QUERIES */
+/***********************************************************************************************/
+
+/* Smaller than 1200 (devices and browsers) */
+@media only screen and (max-width: 1199px) {
+
+
+
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+    .bkb-wrapper ul.bkb-tabs li{
+        clear: both;
+        width: 100%;
+        border-bottom: 1px solid #EEEEEE;
+    }
+    
+    .bkb-wrapper ul.bkb-tabs li.active a {
+       border-bottom: 1px solid #EEEEEE;
+    }
+  
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+ 
+    .bkb-wrapper ul.bkb-tabs li{
+        clear: both;
+        width: 100%;
+        border-bottom: 1px solid #EEEEEE;
+    }
+    
+    .bkb-wrapper ul.bkb-tabs li.active a {
+       border-bottom: 1px solid #EEEEEE;
+    }
+    
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .bkb-wrapper ul.bkb-tabs li{
+        clear: both;
+        width: 100%;
+        border-bottom: 1px solid #EEEEEE;
+    }
+    
+    .bkb-wrapper ul.bkb-tabs li.active a {
+       border-bottom: 1px solid #EEEEEE;
+    }
+    
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+    
+    .bkb-wrapper ul.bkb-tabs li{
+        clear: both;
+        width: 100%;
+        border-bottom: 1px solid #EEEEEE;
+    }
+    
+    .bkb-wrapper ul.bkb-tabs li.active a {
+       border-bottom: 1px solid #EEEEEE;
+    }
+
+}
+
+
+/*------------------------------ End bkb-tabify.css  ---------------------------------*/
+
+/*------------------------------ Start tipsy.css  ---------------------------------*/
+
+.tipsy { font-size: 12px; position: absolute; padding: 5px; z-index: 100000; }
+.tipsy-inner { background-color: #000; color: #FFF; max-width: 200px; padding: 5px 8px 5px 8px; text-align: center; }
+
+/* Rounded corners */
+.tipsy-inner { border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px; }
+
+/* Uncomment for shadow */
+/*.tipsy-inner { box-shadow: 0 0 5px #000000; -webkit-box-shadow: 0 0 5px #000000; -moz-box-shadow: 0 0 5px #000000; }*/
+
+.tipsy-arrow { position: absolute; width: 0; height: 0; line-height: 0; border: 5px dashed #000; }
+
+/* Rules to colour arrows */
+.tipsy-arrow-n { border-bottom-color: #000; }
+.tipsy-arrow-s { border-top-color: #000; }
+.tipsy-arrow-e { border-left-color: #000; }
+.tipsy-arrow-w { border-right-color: #000; }
+
+.tipsy-n .tipsy-arrow { top: 0px; left: 50%; margin-left: -5px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent; }
+.tipsy-nw .tipsy-arrow { top: 0; left: 10px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent;}
+.tipsy-ne .tipsy-arrow { top: 0; right: 10px; border-bottom-style: solid; border-top: none;  border-left-color: transparent; border-right-color: transparent;}
+.tipsy-s .tipsy-arrow { bottom: 0; left: 50%; margin-left: -5px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+.tipsy-sw .tipsy-arrow { bottom: 0; left: 10px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+.tipsy-se .tipsy-arrow { bottom: 0; right: 10px; border-top-style: solid; border-bottom: none; border-left-color: transparent; border-right-color: transparent; }
+.tipsy-e .tipsy-arrow { right: 0; top: 50%; margin-top: -5px; border-left-style: solid; border-right: none; border-top-color: transparent; border-bottom-color: transparent; }
+.tipsy-w .tipsy-arrow { left: 0; top: 50%; margin-top: -5px; border-right-style: solid; border-left: none; border-top-color: transparent; border-bottom-color: transparent; }
+
+
+/*------------------------------ End tipsy.css  ---------------------------------*/
+
+/*------------------------------ Start bkb-voting-style.css  ---------------------------------*/
+
+/*------------------------------ Button Container ---------------------------------*/
+
+.bkb_container{
+    width: 100%;
+    border-bottom: #e6e6e6 1px solid; border-top: #e6e6e6 1px solid;
+    display: block;
+    float: left;
+    margin: 12px 0;
+    padding: 5px 0;
+}
+
+.bkb_btn_container{
+
+
+    float: left;
+    width: 68%;
+
+}
+
+.bkb_btn_container img.pvm-custom-icon{
+    width: 16px;
+    height: 16px;
+}
+
+p.voting-closed-message{
+    font-family: inherit;
+    margin:0px 0px;
+    padding: 0px;
+    line-height: 24px;
+}
+
+.msg_container{
+    margin-top: 24px;
+    text-align: left;
+}
+
+.bkb_btn_container .btn_like, 
+.bkb_btn_container .btn_dislike{
+    width: auto; 
+    height: 48px;
+    line-height: 48px;
+    padding: 0 24px; 
+    float: left;  
+    margin-top: 15px;
+    cursor: pointer; color: #333333; 
+    border:#f0f0f0 1px solid;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.bkb_btn_container .btn_like{text-align: center; color: #559900;}
+
+.bkb_btn_container .btn_like:hover{
+
+    background-color: #f0f0f0;	border: #c6c6c6 1px solid; 
+}
+.bkb_btn_container .btn_dislike{ color: #c9231a;}
+.bkb_btn_container .btn_dislike:hover, .bkb_btn_container .dislike-h{
+    background-color: #f0f0f0;	border: #c6c6c6 1px solid; 
+}
+
+.bkb_container .stat-cnt{ float: right; width: 25%;}
+.bkb_container .stat-bar{ width: 100%; height: 8px; margin: 12px 0; border: 1px solid #eeeeee;}
+.bkb_container .bg-green{ background-color: #559900;}
+.bkb_container .bg-red{background-color: #c9231a; }
+.bkb_container .total-vote-counter{ font-size: 14px; color: #333; text-align: right; }
+.bkb_container .stat-bar div{height: 8px; float: left;}
+
+.bkb_container .like-count-container, 
+.bkb_container .dislike-count-container{
+    width: auto; height: 18px; 
+    float: right; 
+    font-size: 12px; line-height: 18px; color: #666;
+    padding-left: 15px;
+}
+
+/*------------------------------ Feedback Message Box  ---------------------------------*/
+
+.bkb_clearfix{
+    clear: both;
+}
+
+section.bkb-feedback-form-container{
+    display: none;
+}
+
+section.bkb-feedback-form-container .bwl-form-success-box{
+    background: #8ad088;
+    color: #FFFFFF;
+}
+
+section.bkb-feedback-form-container .bwl-form-wait-box{
+    background: #ffffc1;
+    color: #000000;
+}
+
+section.bkb-feedback-form-container .bwl-form-error-box{
+    background: #e63f37;
+    color: #FFFFFF;
+}
+
+section.bkb-feedback-form-container h2{
+
+    font-size: 16px;
+
+}
+
+section.bkb-feedback-form-container .bwl_pro_form_error_message_box{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;
+    width: 100%;
+    display: none;
+    padding: 5px;
+    margin: 0 0 12px 0;
+
+}
+section.bkb-feedback-form-container .feedback_message_box{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+    width: 100%;
+    height: 100px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    border-radius: 0px;
+    font-size: 12px;
+}
+
+section.bkb-feedback-form-container form input.captcha, 
+section.bkb-feedback-form-container form input.sum {
+    display: inline;
+    text-align: center;
+    width: 40px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    border: 1px solid lightgray;
+    height: 24px;
+    line-height: 24px;
+}
+
+section.bkb-feedback-form-container form span#spambot {
+    font-size: 11px;
+}
+
+p.bkb_feedback_submit_container{
+    text-align: left;
+}
+
+section.bkb-feedback-form-container form input[type=submit]{
+
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    border: 1px solid lightgray;
+    height: 32px;
+    line-height: 24px;
+    padding: 0 12px;
+}
+
+/*------------------------------ End bkb-voting-style.css  ---------------------------------*/
+
+
+
+/*------------------------------ KB Contents  ---------------------------------*/
+
+.bwl-kb{
+    
+}
+ol.bwl-kb-categories li,
+.bwl-kb ol li{
+    list-style-type: none;
+}
+
+.bwl-kb img{
+    box-shadow: none;
+    border: 0px;
+}
+
+.bwl-kb h2.bwl-kb-category-title{
+    margin: 12px 0;
+    padding: 0;
+    text-transform: capitalize;
+    display: block;
+}
+
+.bwl-kb h2.bwl-kb-category-title a{
+    text-decoration: none;
+    color: #2c2c2c;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -ms-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out;	
+}
+
+.bwl-kb h2.bwl-kb-category-title a  i.fa{
+    font-size: 22px;
+}
+
+.bwl-kb h2.bwl-kb-category-title a:hover{
+    color: #1a1a1a;
+}
+
+.bwl-kb ol.bwl-kb-categories{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    clear: both;
+}
+
+.bwl-kb ul.bwl-kb-categories li{
+    padding: 0;
+    margin: 0;
+}
+
+/*------------------------------ Boxed Style ---------------------------------*/
+
+.bwl-kb div.bkb-box-layout{
+    text-align: center;
+    /*border: 1px solid #eeeeee;*/
+    margin: 2px;
+}
+
+.bwl-kb div.bkb-box-layout a{
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    clear: both;
+    color: #222222;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -ms-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out;	
+}
+
+.bwl-kb div.bkb-box-layout a:hover{
+    color: #1a1a1a;
+}
+
+.bwl-kb div.bkb-box-layout a span.bkb-icon-container{
+    font-size: 36px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    /*width: 100px;*/
+    text-align: center;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -ms-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+    
+}
+
+.bwl-kb div.bkb-box-layout a span.bkb-icon-container img{
+    box-shadow: none;
+    border: 0px;
+}
+
+.bwl-kb div.bkb-box-layout a h2.bkb-box-style-category-title{
+    font-size: 16px;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    position: relative;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -ms-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out;	
+}
+
+.bwl-kb div.bkb-content > p.bkb-category-description{
+ 
+    font-size: 12px;
+    padding: 0 12px 0 0;
+    color: #808080;
+    
+}
+
+.bwl-kb div.bkb-box-layout p.bkb-category-description{
+    
+    padding-left: 6px; 
+    padding-right: 6px; 
+    font-size: 12px;
+    
+}
+
+
+/*------------------------------Iconized List---------------------------------*/
+
+ol.iconized-list{
+    counter-reset: li;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 4em;
+}
+
+ol.iconized-list li{
+    margin: 5px 0px;
+}
+
+ol.iconized-list li a,
+ol.iconized-list li a:visited{
+    text-decoration: none;
+    margin-bottom: 5px;
+    display: inline-block;
+    border: 0px;
+    color: #616161;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -ms-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out;	
+}
+
+ol.iconized-list li a:hover{
+    color: #2c2c2c;
+}
+
+div.bkb-tab-content ol.iconized-list li{
+    margin: 5px 0px 0px 10px;
+}
+
+/*------------------------------None List---------------------------------*/
+
+ol.none-list{
+    counter-reset: li;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 4em;
+}
+
+ol.none-list li{
+    margin: 5px 0px;
+}
+
+ol.none-list li a,
+ol.none-list li a:visited{
+    border: 0px;
+    text-decoration: none;
+    color: #616161;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -ms-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out;	
+}
+
+ol.none-list li a:hover{
+    color: #2c2c2c;
+}
+
+ol.none-list li a:before{
+    content: ' - '
+}
+
+ol.rounded-list{
+    counter-reset: li;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 4em;
+}
+
+ol.rounded-list li{
+    margin: 5px 16px;
+}
+
+/* ---------------Rounded List Style ----------------------- */			
+
+.rounded-list a,
+.rounded-list a:visited{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .5em 0;
+    background: #eee;
+    color: #616161;
+    text-decoration: none;
+    -webkit-transition: background .5s ease-out;
+    -moz-transition: background .5s ease-out;
+    -ms-transition: background .5s ease-out;
+    -o-transition: background .5s ease-out;
+    transition: background .5s ease-out;	
+}
+
+.rounded-list a:hover{
+    color: #2c2c2c;
+    background: #ddd;
+}
+
+.rounded-list a:hover:before{
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);	
+}
+
+.rounded-list a:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;	
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #cdcdcd;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid #fff;
+    text-align: center;
+    /*content: "\f068";*/
+    /*font-family: 'FontAwesome';*/
+    font-style: italic;
+    font-weight: bold;
+    color: #2c2c2c;
+    -moz-border-radius: 2em;
+    -webkit-border-radius: 2em;
+    border-radius: 2em;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+}
+
+/*----------------------Rectangle List Style-----------------------------------------*/
+
+ol.rectangle-list{
+    counter-reset: li;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 4em;
+}
+
+ol.rectangle-list li{
+    margin: 5px 16px;
+}
+
+.rectangle-list a,
+.rectangle-list a:visited{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .5em 0;
+    background: #eee;
+    color: #616161;
+    text-decoration: none;
+    -webkit-transition: background .5s ease-out;
+    -moz-transition: background .5s ease-out;
+    -ms-transition: background .5s ease-out;
+    -o-transition: background .5s ease-out;
+    transition: background .5s ease-out;	
+}
+
+.rectangle-list a:hover{
+    color: #2c2c2c;
+    background: #ddd;
+}
+
+.rectangle-list a:hover:before{
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);	
+}
+
+.rectangle-list a:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;	
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #cdcdcd;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid #fff;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: #2c2c2c;
+/*    -moz-border-radius: 2em;
+    -webkit-border-radius: 2em;
+    border-radius: 2em;*/
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+}
+
+/*----------------------------Search Section -----------------------------------*/
+
+form.bkb-live-search-form{
+    margin-bottom: 24px;
+    position: relative;
+}
+
+div.remodal form.bkb-live-search-form{
+    margin-bottom: 0px;
+    position: relative;
+}
+
+div.remodal span.bkbm-btn-clear{
+    background: #f4f4f4;
+}
+
+#result {
+    height:20px;
+    font-size:16px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#333;
+    padding:5px;
+    margin-bottom:10px;
+    background-color:#FFFF99;
+}
+
+form.bkb-live-search-form #s{
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    border: 1px solid lightgray;
+    height: 3em;
+    /*line-height: 3em;*/
+    text-indent: 5px;
+    /*font-size: 12px;*/
+}
+
+.bkbm-dn{
+    display: none;
+}
+
+span.bkbm-btn-clear{
+    position: absolute;
+    top: 3px;
+    width: 30px;
+    height: 2.5em;
+    line-height: 2.5em;
+    text-align: center;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+span.bkbm-btn-clear:after{
+    position: absolute;
+    content: 'X';
+    display: inline-block;
+    top: -1px;
+    left: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #6a6a6a;
+    font-family: verdana;
+    -webkit-transition: all 0.5s  ease-out;
+    -moz-transition: all 0.5s  ease-out;
+    -o-transition: all 0.5s  ease-out;
+    transition: all 0.5s  ease-out;
+     -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+
+
+span.bkbm-btn-clear:hover:after{
+     -webkit-transform: rotateY(360deg);
+  -moz-transform: rotateY(360deg);
+  -ms-transform: rotateY(360deg);
+  -o-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+}
+
+
+
+span.bkbm-btn-clear:hover{
+    color: #2C2C2C;
+}
+
+.suggestionsBox {
+    position: absolute;
+    left: 0px;
+    top:50px;
+    width: 100%;
+    padding:0px;
+    background-color: #2c2c2c;
+    /*color: #fff;*/
+    z-index: 1000;
+}
+
+
+div.suggestionList ul{
+    margin: 0px;
+    padding: 0px;
+}
+div.suggestionList:before{
+     
+    content: "";
+    display: inline-block;
+    height: 0;
+    margin-right: 0.5em;
+    width: 0;
+    left: 10px;
+    margin-top: -0.5em;
+    position: absolute;
+    top:1px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #2c2c2c;
+    z-index: 999;
+}
+div.suggestionList ul li {
+    list-style:none;
+    margin: 0px;
+    border-bottom:1px solid #CCCCCC;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: left;
+    color:#FFFFFF;
+}
+
+div.suggestionList ul li a{
+    text-decoration: none;
+    color: blue;
+    /*color: #FFFFFF;*/
+    padding: 5px;
+    display: block;
+}
+
+div.suggestionList ul li:last-child{
+    border-bottom: 0px;
+}
+
+div.suggestionList ul li a:hover,
+div.suggestionList ul li a:visited {
+    
+    color:#F3F3F3;
+}
+
+.nothing-found{
+    padding: 5px;
+    color: #FFFFFFF;
+}
+
+/*ul {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;
+    color:#FFF;
+    padding:0;
+    margin:0;
+}*/
+
+.search_icon{
+    background-origin: content-box;
+    background: url(../images/search.png) no-repeat;
+    background-position: top 10px right 10px;
+    background-position-x: 99%;
+    background-position-y: 50%;
+    border: 1px solid #cccccc;
+}
+
+.load{
+    background-origin: content-box;
+    background: url(../images/loader.gif) no-repeat;
+    background-position: top 10px right 10px;
+    background-position-x: 99%;
+    background-position-y: 50%;   
+}
+
+#suggest {
+    position:relative;
+}
+
+/*------------------------------ Post View ---------------------------------*/
+
+.bkpm-total-post-view{
+    padding: 12px 0 5px 0;
+    border-top: 1px solid #e6e6e6;
+}
+
+.bkpm-total-post-view a{
+    text-decoration: none;
+}
+
+a.bkb-post-edit-link{
+    display: block;
+    clear: both;
+    text-decoration: none;
+    margin: 6px 0;
+}
+
+/*----------------------------- Widget Area ---------------------------------*/
+
+ul.bkb-widget{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul.bkb-widget li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    color: #5C5C5C;
+    line-height: 1.5em;
+}
+
+ul.bkb-widget li a{
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+/*-----------------------------Related Posts ----------------------------------*/
+
+section.bkb_related_posts{
+    margin: 0px 0px 12px 0px;
+}
+
+section.bkb_related_posts h2{
+    border-bottom: 1px solid #EEEEEE;
+    font-size: 18px;
+    margin: 11px 0;
+    padding: 0 0 12px;
+}
+
+section.bkb_related_posts ul.bkb-related-posts{
+   clear: both;
+   list-style: none;
+   padding: 0px;
+   margin: 0px;
+}
+section.bkb_related_posts ul.bkb-related-posts li{
+   padding: 0px;
+   margin: 0px;
+   list-style-type: none;
+}
+
+section.bkb_related_posts ul.bkb-related-posts li a{
+    text-decoration: none;
+}
+
+section.bkb_related_posts ul.bkb-related-posts li a:before{
+    content: '-';
+    display: inline-block;
+    margin-right: 3px;
+    font-weight: bold;
+}
+
+/*-----------------------------Related Posts ----------------------------------*/
+
+section.bkb_file_attachment{
+    margin: 0px 0px 12px 0px;
+}
+
+section.bkb_file_attachment h2{
+    border-bottom: 1px solid #EEEEEE;
+    font-size: 18px;
+    margin: 11px 0;
+    padding: 0 0 5px;
+}
+
+section.bkb_file_attachment ul.bkb-attachment-items{
+   clear: both;
+   list-style: none;
+   padding: 0px;
+   margin: 0px;
+}
+section.bkb_file_attachment ul.bkb-attachment-items li{
+   padding: 0px;
+   margin: 0px;
+   list-style-type: none;
+}
+
+section.bkb_file_attachment ul.bkb-attachment-items li a{
+    text-decoration: none;
+}
+
+section.bkb_file_attachment ul.bkb-attachment-items li a:before{
+    content: '- ';
+    display: inline-block;
+    margin-right: 3px;
+    font-weight: bold;
+}
+
+
+/*------------------------------  KB QUESTION ASK FORM---------------------------------*/
+
+.bkb-ques-form-container{
+    margin-top: 11px;
+    clear: both;
+    display: block;
+    text-align: left;
+}
+
+.bkb-ques-form-success-box{
+    background: #8ad088;
+    color: #FFFFFF;
+}
+
+.bkb-ques-form-wait-box{
+    background: #ffffc1;
+    color: #000000;
+}
+
+.bkb-ques-form-error-box{
+    background: #e63f37;
+    color: #FFFFFF;
+}
+
+.bkb-ques-form-container h2{
+    font-size: 18px;
+    margin: 11px 0px;
+    padding: 0;
+    border-bottom: 1px solid #EEEEEE;
+    padding-bottom: 12px;
+}
+
+.bkb-ques-form-container .bkb-ques-form-message-box{
+    width: 100%;
+    border:1px solid #EEEEEE;
+    line-height: 2.4em;
+    text-indent: 2px;
+    display: none;
+    margin-bottom: 11px;
+    box-sizing: border-box;
+    padding: 5px 0 5px 10px;
+}
+
+.bkb-ques-form-container form input[type=text]
+{
+    width: 100%;
+    margin-bottom: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    border: 1px solid lightgray;
+    height: 42px;
+    line-height: 24px;
+    box-sizing: border-box;
+}
+
+.bkb-ques-form-container form select
+{    
+    margin-bottom: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    border: 1px solid lightgray;
+    height: 32px;
+    line-height: 24px;
+    padding: 6px;
+}
+
+
+.bkb-ques-form-container form p label{
+    display: block;
+    clear: both;
+    margin: 12px 0;
+}
+
+
+.bkb-ques-form-container form input[type=submit]{
+    
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    border: 1px solid lightgray;
+    height: 32px;
+    line-height: 24px;
+    padding: 0 12px;
+    margin: 12px 0;
+}
+
+.bkb-ques-form-container form input.bkb_ques_disabled_field,
+.bkb-ques-form-container form select.bkb_ques_disabled_field,
+.bkb-ques-form-container form input[type=submit].bkb_ques_disabled_field{
+    background: #EEEEEE;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    border: 1px solid lightgray;
+    height: 32px;
+    line-height: 24px;
+}
+
+.bkb-ques-form-container form input.captcha, 
+.bkb-ques-form-container form input.sum {
+    display: inline;
+    text-align: center;
+    width: 40px;
+}
+
+.bkb-ques-form-container form span#spambot {
+    font-size: 11px;
+}
+
+p.bkb_question_submit_container{
+    text-align: left;
+}
+
+/*-------------------------Sticky KB Settings --------------------------------------*/
+
+
+.bkb-sticky-container{
+ 
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    right: -119px;
+    top:250px;
+    width: 150px;
+
+}
+
+.bkb-sticky li{
+    list-style-type: none;
+    background-color: #333;
+    color: #efefef;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 0 0 8px;
+    margin: 0px 0px 1px 0px;
+    -webkit-transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    transition:all 0.5s ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+    
+
+}
+
+.bkb-sticky li a{
+    color: #ffffff;
+    font-weight: bold;
+    -webkit-transition:all 3s ease-in-out;
+    -moz-transition:all 3s ease-in-out;
+    -o-transition:all 3s ease-in-out;
+    transition:all 3s ease-in-out;
+}
+
+.bkb-sticky li a:hover{
+
+        color: #eeeeee;
+
+}
+
+.bkb-sticky li span{
+    opacity: 0;
+    font-size: 11px;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out;
+    transition:all 0.25s ease-in-out;
+}
+
+.bkb-sticky li:hover{
+    margin-left: -115px;
+}
+
+.bkb-sticky li:hover span{
+    opacity: 1;
+}
+
